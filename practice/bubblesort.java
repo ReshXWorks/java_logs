@@ -12,9 +12,9 @@ public class Main
 	                arr[j+1]=temp;
 	            }
 	        }
-	        if (flag){
+	        if (flag){	//if this flag ain't here, that best case complexity of O(n) won't work! why? coz, the for loop still will complete itself;
 	            //System.out.println("firstloop!");
-	            break;
+	            break; 
 	        }
 	        //System.out.println("will it print?");
 	    }
