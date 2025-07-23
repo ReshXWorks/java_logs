@@ -1,4 +1,4 @@
-public class Main
+public class Bubblesort
 {
 	public static void main(String[] args) {
 	    int[] arr = {1,2,3,45,67}; //use separate for loop to get user input for unsorted array if needed
