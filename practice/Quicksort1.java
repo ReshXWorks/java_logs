@@ -5,7 +5,7 @@ public class Quicksort1{
         int[] array = {2,6,1,8,3,4};
         quicksort(array, 0, array.length-1);
         for (int a: array){
-            System.out.println(a);
+            System.out.print(a + " ");
         }
     }
     public static void quicksort(int[] arr, int low, int high){
