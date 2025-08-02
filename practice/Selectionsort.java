@@ -8,9 +8,9 @@ public class Selectionsort{
         	        min_index = i;            //don't swap right away, select the min element's index first
         	    }
         	}
-        	int temp = arr[min_index];      //and then have the swap logic-correct implementation of "selection" sort: select it and then swap it
-            arr[min_index]=arr[j];
-            arr[j]=temp;
+		int temp = arr[min_index];      //and then have the swap logic-correct implementation of "selection" sort: select it and then swap it
+            	arr[min_index]=arr[j];
+            	arr[j]=temp;
 	    }
         	
 	    for(int a: arr){
